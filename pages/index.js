@@ -6,7 +6,7 @@ import { SiFreelancer } from 'react-icons/si';
 import Image from 'next/image';
 import mypic from '../public/dev.png';
 import design from '../public/design.png';
-import code from '../public/design.png';
+import code from '../public/code.png';
 import consulting from '../public/consulting.png';
 import logo from '../public/net-shinobi.png';
 import web1 from '../public/web1.png';
@@ -94,9 +94,9 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Service Offered</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
+              Since the beginning of my journey as a freelance web developer,
+              I've done mock assignment for
+              <span className="text-teal-500"> Mereka Academy </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
               for both business and consumer use.
@@ -122,12 +122,12 @@ export default function Home() {
                 design theory.
               </p>
               <h4 className="py-4 text-teal-600 dark:text-white">
-                Design Tools I Use
+                Design Tools That I Use
               </h4>
               <p className="text-gray-800 py-1">Photoshop</p>
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1">Canva</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-teal-500 flex-1">
               <Image src={code} width={100} height={100} className="mx-auto" />
@@ -139,12 +139,12 @@ export default function Home() {
                 reality.
               </p>
               <h4 className="py-4 text-teal-600 dark:text-white">
-                Design Tools I Use
+                Programming Language and Framework That I Use
               </h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1">React JS</p>
+              <p className="text-gray-800 py-1">Tailwind CSS</p>
+              <p className="text-gray-800 py-1">Next Js</p>
+              <p className="text-gray-800 py-1">Bootstrap</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-teal-500 flex-1">
               <Image
@@ -159,12 +159,12 @@ export default function Home() {
                 give you tips and tricks to level it up.
               </p>
               <h4 className="py-4 text-teal-600 dark:text-white">
-                Design Tools I Use
+                Communication Tools That I Use
               </h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1">Google Meet</p>
+              <p className="text-gray-800 py-1">Zoom</p>
+              <p className="text-gray-800 py-1">Youtube</p>
+              <p className="text-gray-800 py-1">Whatapp</p>
             </div>
           </div>
         </section>
